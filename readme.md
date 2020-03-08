@@ -1,8 +1,10 @@
 source: `https://docs.docker.com/compose/wordpress/`
 
-###run
+### run
 `docker-compose up -d`
-###down
+
+### down
 `docker-compose down`
-###down with cleanup
+
+### down with cleanup
 `docker-compose down --volumes`
