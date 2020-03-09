@@ -1,12 +1,17 @@
 ## docker wordpress example
 
-### run
+### env
+copy the example file to .env and change the values
+
+    $ cp .env.example .env
+
+### start server
     $ docker-compose up -d
 
-### down
+### stop server
     $ docker-compose down
 
-### down with cleanup
+### stop server and remove files/database
     $ docker-compose down --volumes
     
 source: `https://docs.docker.com/compose/wordpress/`
